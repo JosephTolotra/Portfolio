@@ -1,3 +1,4 @@
+
 // Ouvrir et fermer la boite de dialogue alert
 var customDialog = document.getElementById('custom-dialog');
 var OKDialogButton = document.getElementById('OK-dialog');
@@ -109,7 +110,7 @@ var isVisible = false;
 var projets = [];
 var suites = [];
 
-for (var i = 1; i <= 4; i++) {
+for (var i = 1; i <= 5; i++) {
   projets.push(document.querySelector('#exp' + i));
   suites.push(document.querySelector('#suite' + i));
 }
