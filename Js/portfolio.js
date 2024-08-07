@@ -110,7 +110,7 @@ var isVisible = false;
 var projets = [];
 var suites = [];
 
-for (var i = 1; i <= 5; i++) {
+for (var i = 0; i <= 5; i++) {
   projets.push(document.querySelector('#exp' + i));
   suites.push(document.querySelector('#suite' + i));
 }
